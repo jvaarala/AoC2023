@@ -6,7 +6,7 @@ class Day1
 {
     public static void Part1()
     {
-        string[] input = File.ReadAllLines("inputs/day1-1");
+        string[] input = File.ReadAllLines("inputs/day1");
 
         List<Tuple<char?, char?>> digits = new();
         foreach (var row in input)
