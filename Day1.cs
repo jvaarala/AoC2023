@@ -46,7 +46,7 @@ class Day1
 
     public static void Part2()
     {
-        string[] input = File.ReadAllLines("inputs/day1-1");
+        string[] input = File.ReadAllLines("inputs/day1");
 
         string[] numbers = {
             "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"
@@ -56,7 +56,6 @@ class Day1
         foreach (string row in input)
         {
             List<Tuple<int, string>> positions = new();
-            string substring = row;
 
             for (int i = 0; i < numbers.Length; i++)
             {
